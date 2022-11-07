@@ -1,7 +1,3 @@
-body {
-    background-color: pink;
-}
-
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -26,6 +22,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: pink;
 }
 
 .main {
@@ -47,6 +44,7 @@ body {
 
 .title, .logo {
     padding: 3em 3em 3em 0;
+    width: 250px;
 }
 
 @media (max-width: 767px) {

@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: assets/img/malta.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: länk till min GitHub-repo.
+      url: https://github.com/JoakimHellman/Design
       icon: github
 ---
