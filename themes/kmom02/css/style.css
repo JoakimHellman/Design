@@ -351,7 +351,8 @@ body {
   flex: 1 0 auto;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
@@ -392,14 +393,16 @@ pre code {
 }
 
 /* Header */
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
 }
 
 /* Title */
-.title, .logo {
-  padding: 1em 0em 0em 1em;
+.title,
+.logo {
+  padding: 1em 0 0 1em;
   width: 250px;
 }
 
@@ -409,7 +412,8 @@ pre code {
 }
 
 @media (max-width: 767px) {
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 1em 1em 0;
   }
   .title {
@@ -458,7 +462,8 @@ pre code {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #333;
 }
 
@@ -6634,7 +6639,8 @@ readers do not read off random characters that represent icons */
   padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
 }
 
@@ -6642,7 +6648,8 @@ ol, ul {
   display: none !important;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 

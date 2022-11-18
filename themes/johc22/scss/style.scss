@@ -1,0 +1,48 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'typography';
+@import 'placement';
+@import 'blockquotes';
+@import 'code';
+@import 'header';
+@import 'title';
+@import 'footer';
+@import 'mobile-menu';
+@import 'figure';
+@import 'size';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import 'technologies';
+@import 'technologie';
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: auto;
+}
