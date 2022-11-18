@@ -1,0 +1,42 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="artikelsida">
+            <div class="sidebar">
+                <h1>Artiklar</h1>
+                <div class="linkbox">
+                    <h2><a href="technology/css" title="CSS">CSS</a></h2>
+                </div>
+                <div class="linkbox">
+                    <h2><a href="technology/html" title="CSS">HTML</a></h2>
+                </div>
+                <div class="linkbox">
+                    <h2><a href="technology/javascript" title="CSS">JAVASCRIPT</a></h2>
+                </div>
+                <div class="linkbox">
+                    <h2><a href="technology/php" title="CSS">PHP</a></h2>
+                </div>
+                <div class="linkbox">
+                    <h2><a href="technology/python" title="CSS">PYTHON</a></h2>
+                </div>
+                <div class="linkbox">
+                    <h2><a href="technology/git" title="CSS">GIT</a></h2>
+                </div>
+                <div class="linkbox">
+                    <h2><a href="technology/sqlite" title="CSS">SQLITE</a></h2>
+                </div>
+            </div>
+            <div class="artikel">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

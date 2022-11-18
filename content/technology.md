@@ -1,6 +1,6 @@
 ---
 Description: This is an article.
-Template: technology
+Template: technologystart
 ---
 
 # CSS
