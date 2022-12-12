@@ -5,11 +5,12 @@
 
 html {
     font-size: 100%;
+    color: $font-color;
 }
 
 body {
     line-height: $base-line-hight;
-    background-color: $background-color;
+    color: $font-color;
 }
 
 h1 {
@@ -24,11 +25,21 @@ p {
     font-family: 'Source Serif Pro', serif;
 }
 
+li a {
+    color: $font-color;
+}
+
+a:hover {
+    color: #cf142b;
+}
+
 .main {
     max-width: 67rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 @media (min-width: 64em) {

@@ -16,11 +16,15 @@
 
 .nav a,
 .nav-toggle {
-    color: #333;
+    color: $font-color;
 }
 
 .nav-toggle {
     display: none;
+}
+
+.nav a:hover {
+    color: #cf142b;
 }
 
 @media (max-width: 767px) {

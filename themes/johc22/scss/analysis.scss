@@ -1,0 +1,56 @@
+/* analysis.scss */
+
+
+.colors {
+    grid-column: span 1;
+    grid-row: 2/4;
+    
+    h2 {
+        background-color: rgba(255, 57, 57, 0.7);
+    }
+
+    img {
+        height: 100%;
+    }
+}
+
+.load {
+    grid-column: 2/3;
+    grid-row: 2/4;
+
+    h2 {
+        background-color: rgba(57, 255, 179, 0.7);
+    }
+    
+    img {
+        height: 100%;
+    }
+}
+
+.design {
+    grid-column: 3/4;
+    grid-row: 2/4;
+
+    h2 {
+        background-color: rgba(255, 57, 123, 0.7);
+    }
+}
+
+@media (max-width: 767px) {
+    .colors {
+        grid-row: 2/3;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .load {
+        grid-row: 3/4;
+    }
+    
+    .design {
+        grid-row: 4/5;
+    }
+}

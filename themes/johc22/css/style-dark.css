@@ -311,12 +311,12 @@ template {
 
 html {
   font-size: 100%;
-  color: rgb(19, 19, 19);
+  color: rgb(221, 221, 221);
 }
 
 body {
   line-height: 1.4;
-  color: rgb(19, 19, 19);
+  color: rgb(221, 221, 221);
 }
 
 h1 {
@@ -332,7 +332,7 @@ p {
 }
 
 li a {
-  color: rgb(19, 19, 19);
+  color: rgb(221, 221, 221);
 }
 
 a:hover {
@@ -436,7 +436,7 @@ pre code {
   }
 }
 .title * {
-  color: rgb(19, 19, 19);
+  color: rgb(221, 221, 221);
 }
 
 .title p {
@@ -451,7 +451,7 @@ pre code {
 }
 
 .footer a {
-  color: rgb(19, 19, 19);
+  color: rgb(221, 221, 221);
 }
 
 .footer .social {
@@ -476,7 +476,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: rgb(19, 19, 19);
+  color: rgb(221, 221, 221);
 }
 
 .nav-toggle {
@@ -6968,8 +6968,8 @@ body {
 }
 
 body {
-  background-color: #e7caa4;
-  background-image: url("../../../assets/img/sand.jpg");
+  background-color: #332204;
+  background-image: url("../../../assets/img/dark_sky.jpg");
   max-width: 67rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -6977,14 +6977,26 @@ body {
 }
 
 .main {
-  background-color: rgba(165, 209, 232, 0.8);
+  background-color: #013133;
   box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.2);
 }
 
 .header {
-  background-color: rgba(156, 129, 95, 0.8666666667);
+  background-color: #021d40;
 }
 
 .footer {
-  background-color: rgba(156, 129, 95, 0.8666666667);
+  background-color: #021d40;
+}
+
+.logo {
+  filter: brightness(50%);
+}
+
+.figure {
+  filter: brightness(50%);
+}
+
+.tech-box {
+  filter: drop-shadow(16px 16px 10px rgb(0, 0, 0));
 }
