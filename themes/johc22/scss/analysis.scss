@@ -48,9 +48,11 @@
     
     .load {
         grid-row: 3/4;
+        grid-column: span 1;
     }
     
     .design {
         grid-row: 4/5;
+        grid-column: span 1;
     }
 }

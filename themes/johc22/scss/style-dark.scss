@@ -19,6 +19,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'technologies';
 @import 'technology';
 @import 'analysis';
+@import 'responsivitet';
+@import 'gallery';
 
 * {
     box-sizing: border-box;
@@ -43,7 +45,7 @@ body {
 
 body {
     background-color: $background-color-main-4;
-    background-image: url('../../../assets/img/dark_sky.jpg');
+    background-image: url('../../../image/dark_sky.jpg?q=40');
     max-width: 67rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;

@@ -19,6 +19,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'technologies';
 @import 'technology';
 @import 'analysis';
+@import 'responsivitet';
+@import 'gallery';
 
 * {
     box-sizing: border-box;
@@ -43,7 +45,7 @@ body {
 
 body {
     background-color: $background-color-main;
-    background-image: url('../../../assets/img/sand.jpg');
+    background-image: url('../../../image/sand.jpg?w=1000&q=40');
     max-width: 67rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -51,6 +53,7 @@ body {
 }
 
 .main {
+    width: 100%;
     background-color: $background-color-main-4;
     box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.2);
 }
