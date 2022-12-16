@@ -5,11 +5,12 @@ Description: This is my gallery page
 
 Gallery
 ======================
+
 <div class="gallery-landing">
     <div class="gallery-box row1 pic1">
         <a href="%base_url%/image/bild1.jpg" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="%base_url%/image/bild1.jpg?w=350&h=350&crop-to-fit&q=60">
+                <source media="(min-width: 668px)" srcset="%base_url%/image/bild1.jpg?w=650&h=650&crop-to-fit&q=60">
                 <source media="(min-width: 376px)" srcset="%base_url%/image/bild1.jpg?w=350&h=350&crop-to-fit&q=60">
                 <img class="pic1" src="%base_url%/image/bild1.jpg?w=250&h=250&crop-to-fit&q=60" alt="glada vänner">
             </picture>
@@ -66,7 +67,8 @@ Youtube
 -----------------------
 
 Den bästa videon på youtube! Kolla noga så att ni inte missar det!!!  ;-)
+
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/gCoKWMI0VJ4" frameborder="0" allowfullscreen alt="bästa filmen"></iframe>
+    <iframe src="https://www.youtube.com/embed/gCoKWMI0VJ4" frameborder="0" allowfullscreen alt="bästa filmen" title="Bästa filmen på Youtube"></iframe>
 </div>
 <br>

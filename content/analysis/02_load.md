@@ -21,9 +21,7 @@ Resultat
 <br>
 <h3>Sammanställt</h3>
 
-<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM0q9PbOhvzhdb50BnQv-Vo6oIj2GjcGxX1SUe2cOg43j3o4p6Ayh72OBWzrf4aVvvCDaO6dvUlHeJ/pubhtml?widget=true&amp;headers=false" target="_blank">
-    <iframe class="w100p h500f" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM0q9PbOhvzhdb50BnQv-Vo6oIj2GjcGxX1SUe2cOg43j3o4p6Ayh72OBWzrf4aVvvCDaO6dvUlHeJ/pubhtml?widget=true&amp;headers=false"></iframe>
-</a>
+<iframe class="w100p h500f" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM0q9PbOhvzhdb50BnQv-Vo6oIj2GjcGxX1SUe2cOg43j3o4p6Ayh72OBWzrf4aVvvCDaO6dvUlHeJ/pubhtml?widget=true&amp;headers=false" title="Alla mätningar"></iframe>
 
 <br>
 <h3>Måns Zelmelöw</h3>
@@ -31,7 +29,7 @@ Resultat
 <img class='figure h300' src="%base_url%/image/mans.png?&save-as=jpg" alt="Skärmklipp på hemsida" title="Måns hemsida">
 
 
-<iframe class="w100p h250f" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyDC6J569Aeg0GhQ-mridncibUgWUbD4Y4sAeQ5aGKnDOawiuDpPEuC9wTzBkNLdGT9a8sFYedha9A/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe class="w100p h250f" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyDC6J569Aeg0GhQ-mridncibUgWUbD4Y4sAeQ5aGKnDOawiuDpPEuC9wTzBkNLdGT9a8sFYedha9A/pubhtml?widget=true&amp;headers=false" title="Måns mätningar">></iframe>
 <br>
 På Måns Zelmerlöws webbplats går det inte att få fram ett resultat baserat på det som kallas Viktiga vebbvärden. Jag vet inte varför men något med sidan hindrar att vissa av testresultaten, men ser man till de värden som PageSpeed kan kontrollera så är det höga (dåliga) värden rakt över. Därtill har webbpltsen den sämsta genomsnittliga prestandan av de tre undersökta hemsidorna, med ett medelvärde på 42,3 i prestanda. Framförallt är det mobil-testerna som får väldigt låga resultat och främsta anledningen till detta är att sidan innehåller mycket JavaScript som inte används, vilket medför en lång laddningstid. Dessutom har sidan det överlägset lägsta resultatet när det kommer till tillgänglighet med ett medelvärde på endast 60. Några av anledningarna till det låga resultatet är att alla bildelement inte har alt-attribut, vissa frame-element saknar titel och vissa länkar har inte ett igenkännligt namn. 
 
@@ -40,7 +38,7 @@ På Måns Zelmerlöws webbplats går det inte att få fram ett resultat baserat 
 
 <img class='figure h300' src="%base_url%/image/wester.png?&save-as=jpg" alt="Skärmklipp på hemsida" title="Westers hemsida">
 
-<iframe class="w100p h250f" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQuoCQXs8ysobmctw_VN-n8uaplrf9nSqyVFkckshIAh7UGi-1OGdEgc0uk52udwSAeuLBCsfFe12F_/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe class="w100p h250f" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQuoCQXs8ysobmctw_VN-n8uaplrf9nSqyVFkckshIAh7UGi-1OGdEgc0uk52udwSAeuLBCsfFe12F_/pubhtml?widget=true&amp;headers=false" title="Mats mätningar">></iframe>
 <br>
 Mats Wester med sin enkla (fula och tråkiga) designade webbplats är den enda som blir godkännd när det kommer till "Viktiga webbvärden", iallafall när mobiltesterna genomförs. Dessutom har sidan den högsta genomsnittliga prestandan på ca 59 poäng och även den högsta tillgängligheten. Det som framförallt påverkar prestandan på webbplatsen är att det finns JavaScript som inte används, vilket borde reduceras. Utav de testade sidorna på webbplatsen sticker sidan "Musik & Produktion" ut på ett negativt sätt. Den har den längsta laddningstiden på nära 4 sekunder och eftersom den innehåller flertalet videoklipp som börjar spelas upp automatiskt drar stroleken snabbt iväg som medför en hög dataförbrukning, vilket är ett problem framförallt om man använder mobilabonnemang där man betalar för datatrafiken.
 
@@ -49,7 +47,7 @@ Mats Wester med sin enkla (fula och tråkiga) designade webbplats är den enda s
 
 <img class='figure h300' src="%base_url%/image/johnossi.png?&save-as=jpg" alt="Skärmklipp på hemsida" title="Johnossi hemsida">
 
-<iframe class="w100p h250f" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTCxohtiXxdh1aBeDkC5NtSirSUqql-DKMxPXcpuGAnwtsqa3WPMuoCAo8iwmQ3-pBsHvyHK5DsZxa3/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe class="w100p h250f" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTCxohtiXxdh1aBeDkC5NtSirSUqql-DKMxPXcpuGAnwtsqa3WPMuoCAo8iwmQ3-pBsHvyHK5DsZxa3/pubhtml?widget=true&amp;headers=false" title="Johnossi mätningar">></iframe>
 <br>
 Det är endast på Johnossis webbplats som det finns sidor som inte blir godkännda på "Viktiga webbvärden". Orsaken till detta är för höga värden på "Cumulative Layout Shift" (CLS) vilket innebär att objekt byter plats på sidan efter att de först har renderats, detta uppfattas störande och medför en försämrad upplevelse.[4] I övrigt har sidan en mycket låg mobil-prestanda men hög dator-prestanda vilket gör att medelvädet hammnar i mitten av de testade webbplatserna på 48 poäng. Problemet på webbplatsen är framförallt att den innehåller resurser som blockerar renderingen och att den innehåller mycket JavaScript som inte används. Webbplatsen är i sin uppbyggnad och även innehåll enkel och avskalad men en av de testade sidorna, "videos", innehåller många youtube-iframes vilket verkligen påverkar laddningstid och total storlek på sidan.
 

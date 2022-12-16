@@ -1,6 +1,6 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
-
+@import 'main';
 @import 'typography';
 @import 'placement';
 @import 'blockquotes';
@@ -45,23 +45,10 @@ body {
 
 body {
     background-color: $background-color-main;
-    background-image: url('../../../image/sand.jpg?w=1000&q=40');
+    background-image: url('../../../image/sand.jpg?w=1000&q=40&f=brightness,70');
     max-width: 67rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin: auto;
 }
 
-.main {
-    width: 100%;
-    background-color: $background-color-main-4;
-    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.2);
-}
-
-.header {
-    background-color: $background-color-main-1;
-}
-
-.footer {
-    background-color: $background-color-main-1;
-}

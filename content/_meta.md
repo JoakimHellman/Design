@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/malta.png
+Logo: /image/ansikte1.png?q=30
 Tagline: My portfolio.
 Social:
     - title: länk till min GitHub-repo.

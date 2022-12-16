@@ -6,7 +6,7 @@ Description: This is our index page.
 Välkommen!
 ==========================
 
-<img class='figure right h300' src="%base_url%/image/jag_liten.jpg?p=50" alt="Bild på mig" title="Bild på mig">
+<img class='figure right h300' src="%base_url%/image/jag_liten.jpg?q=50" alt="Bild på mig" title="Bild på mig">
 
 Jag heter Joakim Hellman och jag är 32 år gammal. Jag bor tillsammans med min fru på Malta sedan snart ett år tillbaka. Vi flyttade för hon fick ett jobb här och tills jag har kommit på vad jag skulle vilja syssla med så pluggar jag saker som intresserar mig.
 
